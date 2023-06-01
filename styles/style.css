@@ -1,0 +1,34 @@
+body{
+    background-color: antiquewhite;
+}
+
+.container{
+    /* background-color: aqua; */
+    
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.icons{
+    margin-top: 14px; 
+}
+
+.icons i{
+    cursor: pointer;
+}
+
+.right-box{
+    /* background-color: blue; */
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
+
+.right-box > div{
+    margin : 5px;
+}

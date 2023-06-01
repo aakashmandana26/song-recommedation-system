@@ -16,7 +16,7 @@ fileData.addEventListener('change', (e) => {
     console.log(file.name);
     audioElement = file.name;
     var audio = new Audio("./dataBE/Actor_01/"+audioElement);
-    // audio.play();
+    audio.play();
   })
 
 
